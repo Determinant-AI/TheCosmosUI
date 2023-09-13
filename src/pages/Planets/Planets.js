@@ -8,7 +8,7 @@ import { StyledSection } from "./StyledPlanets";
 
 const Planets = () => (
   <>
-    <PageHeader title="Planets"/>
+    <PageHeader title="Products"/>
     <StyledSection>
       <CelestialObjectCardsContainer>
         {planets.map((planet) => (
