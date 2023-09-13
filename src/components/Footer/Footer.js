@@ -14,7 +14,7 @@ const Footer = () => {
   return (
     <StyledFooterSection>
       <StyledFooterColumn>
-        <HeaderFooterP>The solar system</HeaderFooterP>
+        <HeaderFooterP>Determinant AI</HeaderFooterP>
         <FooterP>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </FooterP>
@@ -50,7 +50,7 @@ const Footer = () => {
       <Border />
       <StyledFooterRow bottomContainer>
         <FooterP bottom>
-          Copyright 2022 The Solar System, All rights reserved.
+          Copyright 2023 Determinant AI, All rights reserved.
         </FooterP>
         <StyledFooterRow bottomDiv>
           <FooterP bottom>Terms of Service</FooterP>

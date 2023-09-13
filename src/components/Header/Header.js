@@ -12,7 +12,7 @@ const Header = () => {
     <HeaderHider>
       <header className="header-wrapper">
         <HeaderStyle>
-          <Link to="/">The Solar System</Link>
+          <Link to="/">Determinant AI</Link>
           <Navbar />
         </HeaderStyle>
       </header>
