@@ -10,19 +10,20 @@ import {
 
 const PromoSection = () => (
   <StyledSection>
-    <StyledHeading>Knowledge right at your fingertips</StyledHeading>
+    <StyledHeading>Customize AI bot for your need</StyledHeading>
     <StyledPlanet>
       <StyledCelestialObject color={colors.mars}/>
-      <StyledPlanetParagraph>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </StyledPlanetParagraph>
+      <StyledPlanetParagraph>AI Podcaster | Streamer </StyledPlanetParagraph>
     </StyledPlanet>
     <StyledPlanet>
       <StyledCelestialObject color={colors.venus}/>
-      <StyledPlanetParagraph>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </StyledPlanetParagraph>
+      <StyledPlanetParagraph>AI Project Manager </StyledPlanetParagraph>
     </StyledPlanet>
     <StyledPlanet>
       <StyledCelestialObject color={colors.neptune}/>
-      <StyledPlanetParagraph>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </StyledPlanetParagraph>
+      <StyledPlanetParagraph>AI Operation Engineer </StyledPlanetParagraph>
     </StyledPlanet>
+    <StyledHeading>Promote your AI bot to monetize</StyledHeading>
   </StyledSection>
 )
 

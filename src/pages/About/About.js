@@ -7,10 +7,10 @@ const AboutPage = () => {
       <PageHeader title="About" />
       <article>
         <AboutP>
-          At Determinant AI, we pride ourselves on collaborating closely with domain experts to develop customized AI assistants tailored to the unique needs of each industry. 
+          At Determinant AI, our customers are at the heart of everything we do. We work closely with domain experts and industry partners to ensure that our AI assistants are tailored to the specific needs of each business. By maintaining an open dialogue and fostering strong relationships with our customers, we can create AI solutions that truly empower businesses to thrive in a rapidly changing world.
         </AboutP>
         <AboutP>
-        Throughout our careers, we have witnessed the transformative power of AI and its potential to revolutionize the way we work. However, we also realized that existing AI solutions often lack the customization, security, and domain-specific expertise required to truly meet the unique needs of businesses. With Determinant AI, we are determined to bridge this gap by collaborating closely with domain experts and leveraging our extensive experience in AI and machine learning.
+          We understand that the modern business landscape is fraught with security and privacy concerns. At Determinant AI, we prioritize the protection of our customers' data and strive to build AI solutions that are both powerful and secure. Our products feature robust security measures, including encryption, data segmentation, and secure authentication, so our customers can trust that their information is safe with us.
         </AboutP>
       </article>
     </AboutSection>

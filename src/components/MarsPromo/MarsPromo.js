@@ -15,9 +15,9 @@ import {
 const MarsPromo = () => (
   <StyledSection>
     <StyledContentContainer>
-      <StyledHeading>Gether information about Mars and its two moons, Phobos and Deimos</StyledHeading>
+      <StyledHeading>Learn more about Our AI Streamer</StyledHeading>
       <StyledParagraph>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</StyledParagraph>
-      <Button $isRed to="/body/mars">Explore Mars</Button>
+      <Button $isRed to="/body/mars">Explore</Button>
     </StyledContentContainer>
     <StyledMarsAndMoonsContainer>
       <StyledMars color={colors.mars}/>
