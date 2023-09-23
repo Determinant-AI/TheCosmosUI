@@ -10,20 +10,32 @@ import {
 
 const PromoSection = () => (
   <StyledSection>
-    <StyledHeading>Customize AI bot for your need</StyledHeading>
+    <StyledHeading>AI Customization - Tailored to Perfection</StyledHeading>
     <StyledPlanet>
       <StyledCelestialObject color={colors.mars}/>
-      <StyledPlanetParagraph>AI Podcaster | Streamer </StyledPlanetParagraph>
+      <StyledPlanetParagraph>Self-aware Personas</StyledPlanetParagraph>
     </StyledPlanet>
     <StyledPlanet>
       <StyledCelestialObject color={colors.venus}/>
-      <StyledPlanetParagraph>AI Project Manager </StyledPlanetParagraph>
+      <StyledPlanetParagraph>Environmental Awareness</StyledPlanetParagraph>
     </StyledPlanet>
     <StyledPlanet>
       <StyledCelestialObject color={colors.neptune}/>
-      <StyledPlanetParagraph>AI Operation Engineer </StyledPlanetParagraph>
+      <StyledPlanetParagraph>Self-driven Actions</StyledPlanetParagraph>
     </StyledPlanet>
-    <StyledHeading>Promote your AI bot to monetize</StyledHeading>
+    <StyledHeading>Seamless Integration - Your Game, Your Way</StyledHeading>
+    <StyledPlanet>
+      <StyledCelestialObject color={colors.neptune}/>
+      <StyledPlanetParagraph>Platform Agnostic</StyledPlanetParagraph>
+    </StyledPlanet>
+    <StyledPlanet>
+      <StyledCelestialObject color={colors.neptune}/>
+      <StyledPlanetParagraph>Player Engagement Analytics</StyledPlanetParagraph>
+    </StyledPlanet>
+    <StyledPlanet>
+      <StyledCelestialObject color={colors.neptune}/>
+      <StyledPlanetParagraph>Continuous Evolution</StyledPlanetParagraph>
+    </StyledPlanet>
   </StyledSection>
 )
 

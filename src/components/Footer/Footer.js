@@ -8,22 +8,25 @@ import {
   StyledFooterColumn,
   StyledFooterRow,
   StyledFooterSection,
+  // StyledParagraph
 } from "./StyledFooter";
 
 const Footer = () => {
   return (
     <StyledFooterSection>
       <StyledFooterColumn>
-        <HeaderFooterP>Determinant AI</HeaderFooterP>
+        <HeaderFooterP>Join Us in Shaping the Future of Gaming</HeaderFooterP>
         <FooterP>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        {/* <StyledParagraph> */}
+         Embark on a journey with us as we push the boundaries of what's possible in gaming. Together, we're creating immersive, player-centric experiences where smart NPCs breathe life into digital realms.
+         {/* </StyledParagraph> */}
         </FooterP>
       </StyledFooterColumn>
       <StyledFooterRow margin>
         <StyledFooterRow>
           <StyledFooterRow linkContainer>
             <StyledFooterColumn>
-              <HeaderFooterP smallHeader>Planets</HeaderFooterP>
+              <HeaderFooterP smallHeader>Products</HeaderFooterP>
               {planets.map((item, index) => {
                 return (
                   <FooterLink key={index} to={`/body/${item.id}`}>

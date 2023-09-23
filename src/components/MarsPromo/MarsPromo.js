@@ -15,8 +15,8 @@ import {
 const MarsPromo = () => (
   <StyledSection>
     <StyledContentContainer>
-      <StyledHeading>Learn more about Our AI Streamer</StyledHeading>
-      <StyledParagraph>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</StyledParagraph>
+      <StyledHeading>Learn more about Our AI NPCs</StyledHeading>
+      <StyledParagraph>We specialize in making NPCs not just characters within a game but self-aware entities deeply connected to their virtual surroundings and personas.</StyledParagraph>
       <Button $isRed to="/body/mars">Explore</Button>
     </StyledContentContainer>
     <StyledMarsAndMoonsContainer>

@@ -15,8 +15,9 @@ import { colors } from "../../constants";
 const HeroSection = () => (
   <StyledSection>
     <StyledContentContainer>
-      <StyledHeading>Welcome to Determinant AI</StyledHeading>
-      <StyledParagraph>We are a passionate team of AI engineers and researchers committed to unlocking the full potential of AI in the modern workplace. Our vision is to create a future where collaborative AI coworkers and humans work seamlessly together.</StyledParagraph>
+      <StyledHeading>Welcome to </StyledHeading>
+      <StyledHeading>Determinant AI</StyledHeading>
+      <StyledParagraph>We are a passionate team of engineers committed to unlocking the full potential of AI. Bringing together years of expertise in the realms of gaming, machine learning, and monetization. Our mission is to redefine the gaming experience by crafting intelligent Non-Playable Characters (NPCs) that elevate virtual worlds to new heights.</StyledParagraph>
       <StyledButton to="/planets">Start exploring</StyledButton>
     </StyledContentContainer>
     <StyledEarthAndMoonContainer>
