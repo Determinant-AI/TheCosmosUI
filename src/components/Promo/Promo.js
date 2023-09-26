@@ -10,7 +10,7 @@ import {
 
 const PromoSection = () => (
   <StyledSection>
-    <StyledHeading>AI Customization - Tailored to Perfection</StyledHeading>
+    <StyledHeading>Customization: Tailored to Perfection</StyledHeading>
     <StyledPlanet>
       <StyledCelestialObject color={colors.mars}/>
       <StyledPlanetParagraph>Self-aware Personas</StyledPlanetParagraph>
@@ -23,7 +23,7 @@ const PromoSection = () => (
       <StyledCelestialObject color={colors.neptune}/>
       <StyledPlanetParagraph>Self-driven Actions</StyledPlanetParagraph>
     </StyledPlanet>
-    <StyledHeading>Seamless Integration - Your Game, Your Way</StyledHeading>
+    <StyledHeading>Seamless Integration: Your Game, Your Way</StyledHeading>
     <StyledPlanet>
       <StyledCelestialObject color={colors.neptune}/>
       <StyledPlanetParagraph>Platform Agnostic</StyledPlanetParagraph>

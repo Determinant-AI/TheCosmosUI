@@ -17,7 +17,7 @@ const HeroSection = () => (
     <StyledContentContainer>
       <StyledHeading>Welcome to </StyledHeading>
       <StyledHeading>Determinant AI</StyledHeading>
-      <StyledParagraph>We are a passionate team of engineers committed to unlocking the full potential of AI. Our mission is to redefine the gaming experience by crafting intelligent Non-Playable Characters (NPCs) that elevate virtual worlds to new heights.</StyledParagraph>
+      <StyledParagraph>We are making robots in games!</StyledParagraph>
       <StyledButton to="/planets">Start exploring</StyledButton>
     </StyledContentContainer>
     <StyledEarthAndMoonContainer>
