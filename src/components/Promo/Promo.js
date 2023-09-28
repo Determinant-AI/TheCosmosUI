@@ -10,7 +10,7 @@ import {
   StyledImage,
   StyledImage2
 } from "./StyledPromo";
-import sing_girl from '../../assets/images/sing_girl.png'
+import note from '../../assets/images/note.png'
 import actions from '../../assets/images/actions.png'
 import kids from '../../assets/images/kids.png'
 import tool from '../../assets/images/girl_tool.png'
@@ -52,12 +52,12 @@ const PromoSection = () => (
   <StyledSection>
     <StyledHeading>Customization: Tailored to Perfection</StyledHeading>
     <StyledPlanet>
-      <StyledPlanetParagraph>Self-aware Personas</StyledPlanetParagraph>
-      <StyledImage src={sing_girl} percentage="70%"/>
-    </StyledPlanet>
-    <StyledPlanet>
       <StyledPlanetParagraph>Environmental Awareness</StyledPlanetParagraph>
       <StyledImage src={kids} percentage="70%"/>
+    </StyledPlanet>
+    <StyledPlanet>
+      <StyledPlanetParagraph>Reasoning and Planning</StyledPlanetParagraph>
+      <StyledImage src={note} percentage="70%"/>
     </StyledPlanet>
     <StyledPlanet>
       <StyledPlanetParagraph>Self-driven Actions</StyledPlanetParagraph>

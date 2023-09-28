@@ -9,7 +9,7 @@ const Planets = () => (
   <>
     <PageHeader title="Team"/>
     <StyledP>
-      Our founding team comprises experts with a wealth of experience from the most popular game platforms: Unity and Roblox. We've honed our skills in building player engagement models, training AI agents through simulation, and providing innovative monetization solutions. In this era of AI, we're leveraging our expertise to shape the future of gaming.
+    Our founding team comprises experts with a wealth of experience from the most popular game platforms: Unity and Roblox. We've honed our skills in building player engagement models, training AI agents through simulation, and offering insights on creating engaging and enjoyable gameplay experiences. In this era of AI, we're leveraging our expertise to shape the future of gaming.
     </StyledP>
     <StyledSection>
       {/* <CelestialObjectCardsContainer>
