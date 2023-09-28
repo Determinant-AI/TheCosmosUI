@@ -9,20 +9,25 @@ import {
   StyledMarsAndMoonsContainer,
   StyledParagraph,
   StyledPhobos,
+  StyledImage,
   StyledSection
 } from "./StyledMarsPromo";
+import girl from '../../assets/images/girl.png'
+import eng_girl from '../../assets/images/eng_girl.png'
 
 const MarsPromo = () => (
   <StyledSection>
     <StyledContentContainer>
       <StyledHeading>Learn more about Our AI NPCs</StyledHeading>
-      <StyledParagraph>We specialize in making NPCs not just characters within a game but self-aware entities deeply connected to their virtual surroundings and personas.</StyledParagraph>
+      <StyledParagraph>We specialize in making NPCs not just characters within a game, but self-aware entities deeply connected to their virtual surroundings and personas.</StyledParagraph>
       <Button $isRed to="/body/mars">Explore</Button>
     </StyledContentContainer>
     <StyledMarsAndMoonsContainer>
-      <StyledMars color={colors.mars}/>
-      <StyledPhobos />
-      <StyledDeimos />
+      {/* <StyledMars color={colors.mars}/> */}
+      <StyledImage src={girl} />
+      {/* <StyledImage src={eng_girl} /> */}
+      <StyledPhobos color={colors.mars}/>
+      <StyledDeimos color={colors.terre}/>
     </StyledMarsAndMoonsContainer>
   </StyledSection>
 );

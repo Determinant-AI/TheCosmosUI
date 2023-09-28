@@ -19,8 +19,8 @@ export const planets = [
   {id: 'venus',   name: 'Venus',   color: colors.venus},
   {id: 'terre',   name: 'Earth',   color: colors.terre},
   {id: 'mars',    name: 'Mars',    color: colors.mars},
-  // {id: 'jupiter', name: 'Jupiter', color: colors.jupiter},
-  // {id: 'saturne', name: 'Saturn',  color: colors.saturne},
-  // {id: 'uranus',  name: 'Uranus',  color: colors.uranus},
-  // {id: 'neptune', name: 'Neptune', color: colors.neptune},
+  {id: 'jupiter', name: 'Jupiter', color: colors.jupiter},
+  {id: 'saturne', name: 'Saturn',  color: colors.saturne},
+  {id: 'uranus',  name: 'Uranus',  color: colors.uranus},
+  {id: 'neptune', name: 'Neptune', color: colors.neptune},
 ]

@@ -17,7 +17,7 @@ const Navbar = () => {
         <Link to="/" onClick={toggleBurger}>
           HOME
         </Link>
-        <Link to="/planets" onClick={toggleBurger}>
+        <Link to="/products" onClick={toggleBurger}>
           TEAM
         </Link>
         <Link to="/about" onClick={toggleBurger}>

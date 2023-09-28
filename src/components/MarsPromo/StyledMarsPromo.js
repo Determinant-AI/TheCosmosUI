@@ -14,6 +14,19 @@ export const StyledSection = styled.section`
   }
 `;
 
+const startColor = "#A7A7A7";
+export const StyledImage = styled.img`
+  width: 95%;
+  height: 95%;
+  position: absolute;
+  inset-block-start: 2em;
+  inset-inline-end: 2em;
+
+  aspect-ratio: 1;
+  border-radius: 95%;
+  object-fit: cover; /* Ensures the image covers the circular container */
+  background: ${props => `linear-gradient(45deg, endColor 0%, ${props.color || startColor} 100%)`};
+`;
 export const StyledContentContainer = styled.div`
   text-align: center;
   
@@ -25,7 +38,9 @@ export const StyledContentContainer = styled.div`
 
 export const StyledHeading = styled.h2``;
 
-export const StyledParagraph = styled.p``;
+export const StyledParagraph = styled.p`
+  width: 600px;
+`;
 
 export const StyledMarsAndMoonsContainer = styled.div`
   position: absolute;

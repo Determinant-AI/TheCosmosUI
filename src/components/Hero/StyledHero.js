@@ -34,7 +34,9 @@ export const StyledHeading = styled.h1`
   }
 `;
 
-export const StyledParagraph = styled.p``;
+export const StyledParagraph = styled.p`
+  width: 450px;
+`;
 
 export const StyledButton = styled(Button)`
   font-size: 1.1rem;
@@ -57,6 +59,21 @@ export const StyledEarthAndMoonContainer = styled.div`
     opacity: 1;
     padding: 4em;
   }
+`;
+
+const startColor = "#A7A7A7";
+const startPercentage = "95%"
+export const StyledImage = styled.img`
+  width: ${props => props.percentage || startPercentage };
+  height: ${props => props.percentage || startPercentage };
+  position: absolute;
+  inset-block-start: 2em;
+  inset-inline-end: 2em;
+
+  aspect-ratio: 1;
+  border-radius: 95%;
+  object-fit: cover; /* Ensures the image covers the circular container */
+  background: ${props => `linear-gradient(45deg, endColor 0%, ${props.color || startColor} 100%)`};
 `;
 
 export const StyledEarth = styled(CelestialObject)``

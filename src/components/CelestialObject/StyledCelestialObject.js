@@ -15,3 +15,5 @@ export const StyledCelestialObject = styled.div`
     ${props => props.color || startColor} 100%
   );
 `;
+
+

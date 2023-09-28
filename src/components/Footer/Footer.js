@@ -17,9 +17,7 @@ const Footer = () => {
       <StyledFooterColumn>
         <HeaderFooterP>Join Us in Shaping the Future of Gaming</HeaderFooterP>
         <FooterP>
-        {/* <StyledParagraph> */}
          Embark on a journey with us as we push the boundaries of what's possible in gaming. Together, we're creating immersive, player-centric experiences where smart NPCs breathe life into digital realms.
-         {/* </StyledParagraph> */}
         </FooterP>
       </StyledFooterColumn>
       <StyledFooterRow margin>
