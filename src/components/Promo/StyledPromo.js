@@ -84,7 +84,7 @@ export const StyledImage2 = styled.img`
 export const StyledTable = styled.table`
   width: 100%;
   max-width: 60em;
-  display: flex;
+  // display: flex;
   border-collapse: collapse;
   border: 2px solid #ddd; /* Add a 2px solid border around the table */
 
