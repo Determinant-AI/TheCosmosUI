@@ -36,6 +36,9 @@ export const StyledHeading = styled.h1`
 
 export const StyledParagraph = styled.p`
   width: 450px;
+  @media (min-width: 48em) {
+    font-size: 3rem;
+  }
 `;
 
 export const StyledButton = styled(Button)`

@@ -64,6 +64,12 @@ export const StyledImage = styled.img`
   border-radius: ${props => props.percentage || startPercentage };
   object-fit: cover; /* Ensures the image covers the circular container */
   background: ${props => `linear-gradient(45deg, endColor 0%, ${props.color || startColor} 100%)`};
+
+  @media (min-width: 48em) {
+    flex-direction: column;
+    text-align: center;
+    gap: 2em;
+  }
 `;
 
 
@@ -78,6 +84,12 @@ export const StyledImage2 = styled.img`
   aspect-ratio: 1;
   object-fit: cover; /* Ensures the image covers the circular container */
   background: ${props => `linear-gradient(45deg, endColor 0%, ${props.color || startColor} 100%)`};
+
+  @media (min-width: 48em) {
+    flex-direction: column;
+    text-align: center;
+    gap: 2em;
+  }
 `;
 
 
@@ -96,5 +108,11 @@ export const StyledTable = styled.table`
 
   th {
     background-color: #b5b3b3;
+  }
+
+  @media (min-width: 48em) {
+    flex-direction: column;
+    text-align: center;
+    gap: 2em;
   }
 `;

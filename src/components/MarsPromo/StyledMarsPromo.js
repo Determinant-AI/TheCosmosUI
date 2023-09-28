@@ -39,7 +39,8 @@ export const StyledContentContainer = styled.div`
 export const StyledHeading = styled.h2``;
 
 export const StyledParagraph = styled.p`
-  width: 600px;
+  width: 450px;
+  
 `;
 
 export const StyledMarsAndMoonsContainer = styled.div`

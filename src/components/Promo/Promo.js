@@ -66,8 +66,8 @@ const PromoSection = () => (
     <StyledHeading>Seamless Integration: Your Game, Your Way</StyledHeading>
     <StyledPlanet>
       <StyledPlanetParagraph>Platform Agnostic</StyledPlanetParagraph>
-      <StyledImage2 src={unity2} percentage="50%" maxWidth="120em"/>
-      <StyledImage2 src={roblox} percentage="50%" maxWidth="120em"/>
+      <StyledImage2 src={unity2} percentage="30%" maxWidth="120em"/>
+      <StyledImage2 src={roblox} percentage="30%" maxWidth="120em"/>
     </StyledPlanet>
     <StyledPlanet>
       <StyledPlanetParagraph>Player Engagement Analytics</StyledPlanetParagraph>
