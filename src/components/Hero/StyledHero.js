@@ -69,7 +69,7 @@ export const StyledImage = styled.img`
   position: absolute;
   inset-block-start: 2em;
   inset-inline-end: 2em;
-
+  display: flex;
   aspect-ratio: 1;
   border-radius: 95%;
   object-fit: cover; /* Ensures the image covers the circular container */
