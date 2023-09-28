@@ -15,7 +15,7 @@ import actions from '../../assets/images/actions.png'
 import kids from '../../assets/images/kids.png'
 import tool from '../../assets/images/girl_tool.png'
 import unity2 from '../../assets/images/unity2.png'
-import roblox from '../../assets/images/roblox.png'
+import roblox from '../../assets/images/roblox_logo_white_new.svg'
 
 const TableComponent = () => {
   return (
