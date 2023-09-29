@@ -16,30 +16,28 @@ import kids from '../../assets/images/kids.png'
 import tool from '../../assets/images/girl_tool.png'
 import unity2 from '../../assets/images/unity2.png'
 import roblox from '../../assets/images/roblox_logo_white_new.svg'
+import unreal from '../../assets/images/unreal.png'
 
 const TableComponent = () => {
   return (
     <StyledTable>
       <thead>
         <tr>
-          <th>NPC id</th>
-          <th>player id</th>
-          <th>action event</th>
-          <th>ts</th>
+          <th>action</th>
+          <th>reasoning</th>
+          <th>feedback</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td>1</td>
-          <td>101</td>
-          <td>Clicked "Start Game"</td>
-          <td>2023-09-20 14:32:20</td>
+          <td font-size="small">Player's low health, potential traps in the dungeon</td>
+          <td font-size="small">Suggest using healing items, scan for traps, warn the player of dangers</td>
+          <td font-size="small">Faster trap spotting, suggest healing sooner.</td>
         </tr>
         <tr>
-          <td>2</td>
-          <td>102</td>
-          <td>Entered Level 2</td>
-          <td>2023-09-20 20:52:03</td>
+          <td font-size="small">Approaching night, need for resources and safety</td>
+          <td font-size="small">Set up camp, gather firewood, hunt for food, assist in combat, advise on tactics</td>
+          <td font-size="small">Great in combat! Collect more firewood earlier.</td>
         </tr>
         {/* Add more rows as needed */}
       </tbody>
@@ -54,20 +52,24 @@ const PromoSection = () => (
     <StyledPlanet>
       <StyledPlanetParagraph>Environmental Awareness</StyledPlanetParagraph>
       <StyledImage src={kids} percentage="70%"/>
+      <StyledPlanetParagraph weight="400">Observe the game world and interact with the complex environment.</StyledPlanetParagraph>
     </StyledPlanet>
     <StyledPlanet>
       <StyledPlanetParagraph>Reasoning and Planning</StyledPlanetParagraph>
       <StyledImage src={note} percentage="70%"/>
+      <StyledPlanetParagraph weight="400">Reasoning and planning with the power of the large language models.</StyledPlanetParagraph>
     </StyledPlanet>
     <StyledPlanet>
-      <StyledPlanetParagraph>Self-driven Actions</StyledPlanetParagraph>
+      <StyledPlanetParagraph>Self-initiated Embodied Actions</StyledPlanetParagraph>
       <StyledImage src={actions} percentage="70%" maxWidth="100em"/>
+      <StyledPlanetParagraph weight="400">Dynamic actions from the runtime generated code in the game engine.</StyledPlanetParagraph>
     </StyledPlanet>
     <StyledHeading>Seamless Integration: Your Game, Your Way</StyledHeading>
     <StyledPlanet>
       <StyledPlanetParagraph>Platform Agnostic</StyledPlanetParagraph>
       <StyledImage2 src={unity2} percentage="30%" maxWidth="120em"/>
       <StyledImage2 src={roblox} percentage="30%" maxWidth="120em"/>
+      <StyledImage2 src={unreal} percentage="50%" maxWidth="120em"/>
     </StyledPlanet>
     <StyledPlanet>
       <StyledPlanetParagraph>Player Engagement Analytics</StyledPlanetParagraph>

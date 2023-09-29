@@ -12,10 +12,12 @@ import {
   StyledCelestialObjectLoadingBox,
   StyledCelestialObjectSection,
   StyledInformationLoadingBox,
+  StyledImage,
   StyledCelestialObject,
   StyledCelestialObjectInformation,
   StyledMoonsSection
 } from "./StyledBody";
+import construct from "../../assets/images/construct.png"
 
 const BodyPage = () => {
   const [ isLoading, setIsLoading ] = useState(false);
@@ -72,21 +74,22 @@ const BodyPage = () => {
 
   return (
     <>
-      <PageHeader title={data.name + (data.englishName && ` (${data.englishName})`)} />
+      <PageHeader title="Under Construction" />
       
-      <StyledCelestialObjectSection>
+      {/* <StyledCelestialObjectSection>
         <StyledCelestialObject color={colors?.[data.id] || colors.moon} />
         <StyledCelestialObjectInformation data={data} />
-      </StyledCelestialObjectSection>
+      </StyledCelestialObjectSection> */}
+      <StyledImage src={construct} />
 
       {data.moons && <StyledMoonsSection>
-        <h2>Moons</h2>
-        <CelestialObjectCardsContainer>
+        {/* <h2>Moons</h2> */}
+        {/* <CelestialObjectCardsContainer>
           {data.moons.map(moon => {
             const id = moon.rel.match(/\w+$/)?.[0]
             return (<CelestialObjectCard key={id} id={id} name={moon.moon} to={`/body/${id}`}/>)
         })}
-        </CelestialObjectCardsContainer>
+        </CelestialObjectCardsContainer> */}
       </StyledMoonsSection>}
     </>
   )

@@ -8,6 +8,30 @@ export const StyledPageHeaderLoadingBox = styled(LoadingBox)`
   height: 5rem;
 `;
 
+const startColor = "#A7A7A7";
+const startPercentage = "50%"
+const maxWidth = "50em"
+export const StyledImage = styled.img`
+  width: ${props => props.percentage || startPercentage };
+  height: ${props => props.percentage || startPercentage };
+  inset-block-start: 2em;
+  display: flex;
+  inset-inline-end: 2em;
+  max-height: 90em;
+  max-width: 60em;
+  // max-width:  ${props => props.maxWidth || maxWidth }
+  aspect-ratio: 1;
+  // border-radius: ${props => props.percentage || startPercentage };
+  object-fit: cover; /* Ensures the image covers the circular container */
+  background: ${props => `linear-gradient(45deg, endColor 0%, ${props.color || startColor} 100%)`};
+
+  @media (min-width: 48em) {
+    flex-direction: column;
+    text-align: center;
+    gap: 2em;
+  }
+`;
+
 export const StyledCelestialObjectLoadingBox = styled(LoadingBox)`
   aspect-ratio: 1;
   border-radius: 50%;

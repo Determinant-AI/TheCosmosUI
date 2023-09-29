@@ -42,9 +42,10 @@ export const StyledCelestialObject = styled(CelestialObject)`
   max-width: 10em;
 `;
 
+const weight = 450
 export const StyledPlanetParagraph = styled.p`
   margin: 0;
-  font-weight: 450;
+  font-weight: ${props => props.weight || weight };
   flex-grow: 1;
 `;
 
@@ -95,15 +96,16 @@ export const StyledImage2 = styled.img`
 
 export const StyledTable = styled.table`
   width: 100%;
-  max-width: 60em;
+  max-width: 70em;
   // display: flex;
   border-collapse: collapse;
   border: 2px solid #ddd; /* Add a 2px solid border around the table */
 
   th, td {
     border: 1px solid #ddd; /* Add a 1px solid border to table cells */
-    padding: 8px;
+    padding: 10px;
     text-align: left;
+    font-size: x-small;
   }
 
   th {

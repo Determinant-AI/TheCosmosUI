@@ -18,9 +18,9 @@ import { colors } from "../../constants";
 const HeroSection = () => (
   <StyledSection>
     <StyledContentContainer>
-      <StyledHeading>We make robots</StyledHeading>
-      <StyledHeading>for Games!</StyledHeading>
-      <StyledParagraph>We are a passionate team of engineers committed to unlocking the full potential of AI. Our mission is to redefine the gaming experience by crafting intelligent Non-Playable Characters (NPCs) that elevate virtual worlds to new heights.</StyledParagraph>
+      <StyledHeading>Embodied AI for</StyledHeading>
+      <StyledHeading>Game Developers</StyledHeading>
+      <StyledParagraph>We are a passionate team of engineers committed to unlocking the full potential of AI. Our mission is to redefine the gaming experience by automatous NPCs that take dynamic actions in the virtual world.</StyledParagraph>
       <StyledButton to="/products">Start exploring</StyledButton>
     </StyledContentContainer>
     <StyledEarthAndMoonContainer>

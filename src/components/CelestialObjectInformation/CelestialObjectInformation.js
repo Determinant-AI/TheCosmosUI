@@ -42,9 +42,9 @@ const CelestialObjectInformation = ({ className, data }) => (
     <b>Gravity:</b>
     <span>{data.gravity} m.s-2</span>
     
-    <b>Radius:</b>
+    {/* <b>Radius:</b>
     <span>{data.meanRadius.toLocaleString()} Km</span>
-    
+     */}
     <b>Semimajor axis:</b>
     <span>{data.semimajorAxis.toLocaleString()} Km</span>
     
