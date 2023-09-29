@@ -7,7 +7,7 @@ const HeaderStyle = styled.div`
   padding-block: 1em;
   background-color: #0f131fc4;
 
-  @media (max-width: 550px) {
+  @media (max-width: 600px) {
     height: 25vh;
   }
 
@@ -18,7 +18,7 @@ const HeaderStyle = styled.div`
     text-decoration: none;
   }
 
-  @media (max-width: 550px) {
+  @media (max-width: 600px) {
     .navbar-wrapper {
       background-color: none;
       height: 10vh;

@@ -30,7 +30,7 @@ const MobileView = styled.div`
     display: none;
   }
 
-  @media (max-width: 550px) {
+  @media (max-width: 600px) {
     .burgermenu-toggle {
       display: fixed;
       padding-top: 10px;

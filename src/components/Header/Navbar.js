@@ -36,7 +36,7 @@ const Navbar = () => {
 
       <style jsx>
         {`
-          @media (max-width: 550px) {
+          @media (max-width: 600px) {
             .navbar-wrapper > div > a {
               display: ${burgerOpen ? "inline" : "none"};
               // color: red;
