@@ -25,18 +25,20 @@ const Footer = () => {
           <StyledFooterRow linkContainer>
             <StyledFooterColumn>
               <HeaderFooterP smallHeader>Products</HeaderFooterP>
-              {planets.map((item, index) => {
+              <FooterA href="#">Book a demo</FooterA>
+              <FooterA href="#">Integration guide</FooterA>
+              {/* {planets.map((item, index) => {
                 return (
                   <FooterLink key={index} to={`/body/${item.id}`}>
                     {item.name}
                   </FooterLink>
                 );
-              })}
+              })} */}
             </StyledFooterColumn>
             <StyledFooterColumn>
               <HeaderFooterP smallHeader>Information</HeaderFooterP>
               <FooterA href="#">How it works</FooterA>
-              <FooterA href="#">Download app</FooterA>
+              {/* <FooterA href="#">Download app</FooterA> */}
               <FooterA href="#">Developer portal</FooterA>
             </StyledFooterColumn>
             <StyledFooterColumn>
