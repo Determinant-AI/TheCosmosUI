@@ -48,7 +48,7 @@ const TableComponent = () => {
 
 const PromoSection = () => (
   <StyledSection>
-    <StyledHeading>Customization: Tailored to Perfection</StyledHeading>
+    <StyledHeading>NPCs are not just about Conversational AI</StyledHeading>
     <StyledPlanet>
       <StyledPlanetParagraph>Environmental Awareness</StyledPlanetParagraph>
       <StyledImage src={kids} percentage="70%"/>
@@ -64,19 +64,19 @@ const PromoSection = () => (
       <StyledImage src={actions} percentage="70%" maxWidth="100em"/>
       <StyledPlanetParagraph weight="400">Dynamic actions from the runtime generated code in the game engine.</StyledPlanetParagraph>
     </StyledPlanet>
-    <StyledHeading>Seamless Integration: Your Game, Your Way</StyledHeading>
+    <StyledHeading>Code-driven integration for simplified workflow</StyledHeading>
     <StyledPlanet>
-      <StyledPlanetParagraph>Platform Agnostic</StyledPlanetParagraph>
+      <StyledPlanetParagraph>Agnostic game engine platforms</StyledPlanetParagraph>
       <StyledImage2 src={unity2} percentage="30%" maxWidth="120em"/>
       <StyledImage2 src={roblox} percentage="30%" maxWidth="120em"/>
       <StyledImage2 src={unreal} percentage="50%" maxWidth="120em"/>
     </StyledPlanet>
     <StyledPlanet>
-      <StyledPlanetParagraph>Player Engagement Analytics</StyledPlanetParagraph>
+      <StyledPlanetParagraph>Engagement insights for continuous improvement</StyledPlanetParagraph>
       <TableComponent/>
     </StyledPlanet>
     <StyledPlanet>
-      <StyledPlanetParagraph>Continuous Evolution</StyledPlanetParagraph>
+      <StyledPlanetParagraph>Optimized architecture for data intensive use cases</StyledPlanetParagraph>
       <StyledImage src={tool} percentage="60%"/>
     </StyledPlanet>
   </StyledSection>

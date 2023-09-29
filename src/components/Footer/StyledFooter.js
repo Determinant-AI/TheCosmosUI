@@ -64,6 +64,7 @@ export const HeaderFooterP = styled.h5`
   font-weight: 800;
   font-size: 1.3rem;
   margin: 1.15em 0;
+  font-family: Spline Sans,system-ui,-apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Arial,sans-serif;
   ${(props) => {
     if (props.smallHeader)
       return `
@@ -76,6 +77,7 @@ export const HeaderFooterP = styled.h5`
 export const FooterP = styled.p`
   color: #cccccc;
   margin: 0;
+  font-family: Spline Sans,system-ui,-apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Arial,sans-serif;
   ${(props) => {
     if (props.bottom)
       return `

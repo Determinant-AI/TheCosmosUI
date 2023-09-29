@@ -20,6 +20,7 @@ export const StyledSection = styled.section`
 
 export const StyledHeading = styled.h2`
   text-align: center;
+  font-family: Spline Sans,system-ui,-apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Arial,sans-serif;
   @media (min-width: 48em) {
     font-size: 2.5rem;
     grid-column: 1 / 4;
@@ -47,6 +48,10 @@ export const StyledPlanetParagraph = styled.p`
   margin: 0;
   font-weight: ${props => props.weight || weight };
   flex-grow: 1;
+  max-width: 300px;
+  color: #cccccc;
+  font-size: 1.1rem;
+  font-family: Spline Sans,system-ui,-apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Arial,sans-serif;
 `;
 
 const startColor = "#A7A7A7";
@@ -106,10 +111,13 @@ export const StyledTable = styled.table`
     padding: 10px;
     text-align: left;
     font-size: x-small;
+    font-family: Spline Sans,system-ui,-apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Arial,sans-serif;
   }
 
   th {
-    background-color: #b5b3b3;
+    // background-color: #b5b3b3;
+    font-size: small;
+    font-family: Spline Sans,system-ui,-apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Arial,sans-serif;
   }
 
   @media (min-width: 48em) {

@@ -28,14 +28,17 @@ export const StyledContentContainer = styled.div`
 
 export const StyledHeading = styled.h1`
   font-size: 2rem;
-
   @media (min-width: 48em) {
     font-size: 3rem;
+    font-family: Spline Sans,system-ui,-apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Arial,sans-serif;
   }
 `;
 
 export const StyledParagraph = styled.p`
   width: 450px;
+  color: #cccccc;
+  font-size: 1.2rem;
+  font-family: Spline Sans,system-ui,-apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Arial,sans-serif;
   @media (min-width: 48em) {
   }
 `;

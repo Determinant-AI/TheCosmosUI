@@ -2,13 +2,14 @@ import styled from "styled-components";
 import CelestialObject from "../CelestialObject/CelestialObject";
 
 export const StyledSection = styled.section`
-  position: relative;
+position: relative;
   display: grid;
   align-content: center;
   align-items: center;
   justify-items: center;
   padding-block: 10em;
-
+  font-weight: 400;
+  font-family: Spline Sans,system-ui,-apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Arial,sans-serif;
   @media (min-width: 48em) {
     grid-template-columns: repeat(12, 1fr);
   }
@@ -40,7 +41,8 @@ export const StyledHeading = styled.h2``;
 
 export const StyledParagraph = styled.p`
   width: 450px;
-  
+  font-size: 1.2em;
+  color: #cccccc;
 `;
 
 export const StyledMarsAndMoonsContainer = styled.div`
