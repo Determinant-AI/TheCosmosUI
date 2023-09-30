@@ -32,14 +32,14 @@ const TableComponent = () => {
       </thead>
       <tbody>
         <tr>
-          <td font-size="small">Player's low health, potential traps in the dungeon</td>
-          <td font-size="small">Suggest using healing items, scan for traps, warn the player of dangers</td>
-          <td font-size="small">Faster trap spotting, suggest healing sooner.</td>
+          <td fontSize="small">Player's low health, potential traps in the dungeon</td>
+          <td fontSize="small">Suggest using healing items, scan for traps, warn the player of dangers</td>
+          <td fontSize="small">Faster trap spotting, suggest healing sooner.</td>
         </tr>
         <tr>
-          <td font-size="small">Approaching night, need for resources and safety</td>
-          <td font-size="small">Set up camp, gather firewood, hunt for food, assist in combat, advise on tactics</td>
-          <td font-size="small">Great in combat! Collect more firewood earlier.</td>
+          <td fontSize="small">Approaching night, need for resources and safety</td>
+          <td fontSize="small">Set up camp, gather firewood, hunt for food, assist in combat, advise on tactics</td>
+          <td fontSize="small">Great in combat! Collect more firewood earlier.</td>
         </tr>
         {/* Add more rows as needed */}
       </tbody>

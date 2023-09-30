@@ -40,7 +40,7 @@ export const StyledContentContainer = styled.div`
 export const StyledHeading = styled.h2``;
 
 export const StyledParagraph = styled.p`
-  width: 450px;
+  width: 350px;
   font-size: 1.2em;
   color: #cccccc;
 `;

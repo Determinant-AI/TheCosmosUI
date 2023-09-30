@@ -35,7 +35,7 @@ export const StyledHeading = styled.h1`
 `;
 
 export const StyledParagraph = styled.p`
-  width: 450px;
+  width: 350px;
   color: #cccccc;
   font-size: 1.2rem;
   font-family: Spline Sans,system-ui,-apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Arial,sans-serif;

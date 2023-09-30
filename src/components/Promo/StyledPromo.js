@@ -32,7 +32,7 @@ export const StyledPlanet = styled.div`
   align-items: center;
   gap: 1em;
 
-  @media (min-width: 48em) {
+  @media (min-width: 4em) {
     flex-direction: column;
     text-align: center;
     gap: 2em;

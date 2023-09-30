@@ -34,7 +34,7 @@ const Navbar = () => {
         </div>
       </MobileView>
 
-      <style jsx>
+      <style jsx="true">
         {`
           @media (max-width: 600px) {
             .navbar-wrapper > div > a {

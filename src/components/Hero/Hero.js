@@ -20,7 +20,7 @@ const HeroSection = () => (
     <StyledContentContainer>
       <StyledHeading>Embodied AI for</StyledHeading>
       <StyledHeading>Game Developers</StyledHeading>
-      <StyledParagraph>We are a passionate team of engineers committed to unlocking the full potential of AI. Our mission is to redefine the gaming experience by automatous NPCs who can observe, act upon and affect the virtual world.</StyledParagraph>
+      <StyledParagraph>We are a passionate team of engineers committed to unlocking the full potential of AI. Our mission is to redefine the gaming experience by autonomous NPCs who can observe, act upon and affect the virtual world.</StyledParagraph>
       <StyledButton to="/products">Start exploring</StyledButton>
     </StyledContentContainer>
     <StyledEarthAndMoonContainer>

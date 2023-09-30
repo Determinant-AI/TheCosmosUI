@@ -5,7 +5,7 @@ import CelestialObjectCardsContainer from "../../components/CelestialObjectCards
 import CelestialObjectCard from "../../components/CelestialObjectCard/CelestialObjectCard";
 import { StyledSection, StyledP } from "./StyledPlanets";
 
-const Planets = () => (
+const Team = () => (
   <>
     <PageHeader title="Team"/>
     <StyledP>
@@ -26,4 +26,4 @@ const Planets = () => (
   </>
 );
 
-export default Planets;
+export default Team;
