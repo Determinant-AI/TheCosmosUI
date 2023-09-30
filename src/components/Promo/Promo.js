@@ -17,6 +17,8 @@ import tool from '../../assets/images/girl_tool.png'
 import unity2 from '../../assets/images/unity2.png'
 import roblox from '../../assets/images/roblox_logo_white_new.svg'
 import unreal from '../../assets/images/unreal.png'
+import world from '../../assets/images/world.png'
+
 
 const TableComponent = () => {
   return (
@@ -77,7 +79,7 @@ const PromoSection = () => (
     </StyledPlanet>
     <StyledPlanet>
       <StyledPlanetParagraph>Optimized architecture for data intensive use cases</StyledPlanetParagraph>
-      <StyledImage src={tool} percentage="60%"/>
+      <StyledImage2 src={world} percentage="90%" maxWidth="120em"/>
     </StyledPlanet>
   </StyledSection>
 )
